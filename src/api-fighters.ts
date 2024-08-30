@@ -5,7 +5,6 @@ const API_URL = "http://localhost:3000/fighters";
 export const getFighters = async (): Promise<any> => {
   const response = await axios.get(API_URL);
   console.log("response, getFighters", response);
-
   return response.data;
 };
 

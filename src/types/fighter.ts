@@ -4,4 +4,5 @@ export interface Fighter {
   age: number;
   nationality: string;
   weight: number;
+  category: string;
 }
